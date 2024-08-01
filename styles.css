@@ -1,0 +1,320 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1080px;
+}
+
+.aws {
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: darkviolet;
+    z-index: 1;
+    transition: 2s;
+}
+
+/* core-section */
+.core {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: darkcyan;
+}
+
+.core .row {
+    z-index: 130;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* akad-section */
+.akad {
+    position: relative;
+    z-index: 0;
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.akad .row {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.akad .row .countdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.akad .row p {
+    text-align: center;
+    padding: 1rem;
+}
+
+.ketDate {
+    display: flex;
+    justify-content: center;
+    padding: .3rem 1rem;
+}
+
+.ketDate .ijab, .ketDate .resepsi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+
+/* couple-section */
+.couple {
+    position: relative;
+    z-index: 0;
+    padding: 3rem 0;
+    display: flex;
+    justify-content: center;
+    background-color: darkcyan;
+}
+
+.couple .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.man {
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.dMan {
+    width:50%;
+    text-align: end;
+    padding: 0 3rem;
+}
+
+.dGirl {
+    width: 50%;
+    padding: 0 3rem;
+    text-align: left;
+}
+
+.girl {
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+}
+
+/* quote-section */
+.quote {
+    position: relative;
+    z-index: 0;
+    padding: 3rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.quote .row {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+
+/* story-section */
+.story {
+    position: relative;
+    z-index: 0;
+    padding: 3rem 0;
+    display: flex;
+    justify-content: center;
+    background-color: darkcyan;
+}
+
+.story .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.timeline {
+    width: 100%;
+    list-style: none;
+    position: relative;
+    padding: 0;
+}
+
+.timeline::before {
+    content: '';
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    border-radius: 1.5px;
+    background-color: yellowgreen ;
+    position: absolute;
+    left: 50%;
+}
+
+.timeline li{
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.timeline li::before, 
+.timeline li::after {
+    content: '';
+    display: table;
+}
+
+.timeline li::after {
+    clear: both;
+}
+
+.timeline li .timeline-img {
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.timeline li .timeline-panel {
+    width: 37%;
+    float: left;
+    position: relative;
+    z-index: 3;
+    padding: .3rem 1rem;
+    box-shadow: 5px 5px 5px;
+    background-color: #ccc;
+    border-radius: 7px;
+}
+
+.timeline li .timeline-panel::before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    box-shadow: 5px -5px 5px;
+    background-color: #ccc;
+    border-radius: 3px;
+    rotate: 45deg;
+    top: 46%;
+    right: -9.5px;
+}
+
+.timeline li.timeline-invert .timeline-panel {
+    float: right;
+}
+
+.timeline li.timeline-invert .timeline-panel::before {
+    left: -9.5px;
+    box-shadow: none;
+}
+
+/* galery-section */
+.galery {
+    position: relative;
+    z-index: 0;
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.galery .row {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.galery-foto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.galery-foto img {
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 1rem;
+}
+
+/* RSVP-Section */
+.RSVP {
+    position: relative;
+    z-index: 0;
+    padding: 3rem 0;
+    display: flex;
+    justify-content: center;
+    background-color: darkcyan;
+}
+
+.RSVP .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.tempat-komentar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: darkgray;
+}
+
+#data-tbody {
+    display: flex;
+    width: 100%;
+    background-color: white;
+}
+
+/* Gift-section */
+.gift {
+    position: relative;
+    z-index: 0;
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.gift .row {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* footer */
+footer {
+    display: flex;
+    background-color: darkcyan;
+    padding: 2rem;
+    justify-content: center;
+}

@@ -1,0 +1,32 @@
+UDDA
+
+1. Core home > sampul 
+2. Informasi Acara
+3. Couple Information
+4. Pesan
+5. Kisah Perjalanan
+6. Galery
+7. RSVP > konek ke Gseeds
+8. Gift
+9. Footer
+more:   ~ Nama untuk setiap link
+        ~ Bg music
+        ~ icon 
+        ~ loading page
+        ~ menu dibagian bawah (buat menarik)
+        tampilan harus dibuat semi paralaks (buat semaksimal mungkin)
+
+note: Tema (belum ditentukan)
+    1. Butuh animasi gif berukuran kecil 
+    2. Asset desain untuk membuat kesesuaian
+    3. Gambar dari Couple
+    4. Color pallete
+    5. aud
+
+
+selfNote; meskipun sederhana meskipun belum bisa membuat yang terbaik, tapi berikan apa yang terbaik.
+buat ini menjadi best gift walaupun hanya sepele, dan itulah aku bermain di hal hal sepele yang seringkali tidak perlupun tidak apa
+namun sekali lagi disitulah aku bermain.
+
+link latihan integrasi ke Gsheet 
+https://script.google.com/macros/s/AKfycby3G_WGvonFtLX5B2rIRZBbPyHi_7yLkCos1rKDClIoTKvKAKDhOeodMePsiSAZiXMVyg/exec
